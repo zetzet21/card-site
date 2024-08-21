@@ -1,0 +1,112 @@
+/* Основные стили */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Стили для контейнера приложения */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Заголовок компании */
+.header {
+  background-color: #4a148c;
+  padding: 20px;
+  color: white;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Равномерно распределяет логотип и название */
+}
+
+/* Логотип и название компании на одной строке */
+.logo-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px; /* Отступ между логотипом и названием компании */
+}
+
+/* Заголовок компании */
+.company-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Навигационная панель */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background-color: #ffffff; /* Фон для списка */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 120%; /* Позиционирование под логотипом */
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 180px; /* Сделаем список шире */
+}
+
+/* Показ списка при наведении на логотип */
+.logo-container:hover .nav-links,
+.nav-links.visible {
+  display: block;
+  opacity: 1;
+}
+
+.nav-links li {
+  margin: 10px 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4a148c;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  color: #6200ea;
+}
+
+/* Стили для контентной области */
+.content {
+  flex-grow: 1;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+/* Дополнительные стили для контентных блоков */
+.content h2 {
+  color: #4a148c;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #333;
+}
