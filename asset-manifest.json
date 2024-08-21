@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/card-site/static/css/main.0d939257.css",
+    "main.js": "/card-site/static/js/main.0ba13663.js",
+    "static/media/inDev-back.jpg": "/card-site/static/media/inDev-back.eee9bdc793929e8d1c94.jpg",
+    "static/media/product-back.jpg": "/card-site/static/media/product-back.537a18dcd4c48452f8d4.jpg",
+    "static/media/main-back1.jpg": "/card-site/static/media/main-back1.53de5baff59ceb06855c.jpg",
+    "static/media/fsi-back.jpg": "/card-site/static/media/fsi-back.4d46d99bdd44387b4de1.jpg",
+    "static/media/contacts-back.jpg": "/card-site/static/media/contacts-back.986bed6d89011653dce2.jpg",
+    "static/media/buissness-back.jpg": "/card-site/static/media/buissness-back.b9c1ee953c4a119031b3.jpg",
+    "static/media/logo.png": "/card-site/static/media/logo.cc0acaf14580e2a625c6.png",
+    "index.html": "/card-site/index.html",
+    "main.0d939257.css.map": "/card-site/static/css/main.0d939257.css.map",
+    "main.0ba13663.js.map": "/card-site/static/js/main.0ba13663.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d939257.css",
+    "static/js/main.0ba13663.js"
+  ]
+}
