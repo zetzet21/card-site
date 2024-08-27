@@ -36,7 +36,7 @@ const App = () => {
                         >
                             <img src={logo} alt="Логотип компании" className="logo" />
                             <ul className={`nav-links ${isDropdownVisible ? 'visible' : ''}`}>
-                                <li><Link to="/about-company">О компании</Link></li>
+                                <li><Link to="/card-site">О компании</Link></li>
                                 <li><Link to="/products">Продукты</Link></li>
                                 <li><Link to="/for-business">Для бизнеса</Link></li>
                                 <li><Link to="/in-development">В разработке</Link></li>
@@ -49,7 +49,7 @@ const App = () => {
                 </header>
                 <main className="content">
                     <Routes>
-                        <Route path="/about-company" element={<AboutCompany />} />
+                        <Route path="/card-site" element={<AboutCompany />} />
                         <Route path="/products" element={<Products />} />
                         <Route path="/for-business" element={<ForBusiness />} />
                         <Route path="/in-development" element={<InDevelopment />} />

@@ -21,7 +21,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://zetzet21.github.io/card-site",
 
   "eslintConfig": {
     "extends": [
